@@ -11,3 +11,5 @@ services:
     user: root
     environment:
       - INIT_ASSETS=1 # default
+    restart:
+      unless-stopped
